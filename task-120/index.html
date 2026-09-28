@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-icons.min.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      html,
+      body {
+        overflow-x: hidden;
+      }
+      .bg-img {
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.2)),
+          url("1.jpg") center/cover;
+      }
+      .bg-img-1 {
+        background:
+          linear-gradient(rgba(239, 207, 180, 0.8)),
+          url("OIP.webp") center/cover;
+      }
+      .bg-img-2 {
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.6)),
+          url("5.jpg") center/cover;
+      }
+      .fs-main {
+        font-size: 55px;
+      }
+      .h-60 {
+        height: 60%;
+      }
+      .h-40 {
+        height: 40%;
+      }
+      .w-49 {
+        width: 49.5%;
+      }
+      .vh-60 {
+        height: 60vh;
+      }
+      .margin-dropdown {
+        margin-left: -30px;
+      }
+      body {
+        background-color: rgb(255, 234, 209);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top px-5">
+      <div class="container-fluid py-2">
+        <a href="#" class="navbar-brand text-light"
+          ><img src="logo.avif" alt="" /></a
+        ><button
+          class="navbar-toggler text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link text-white">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link text-white">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="#coffee" class="nav-link text-white">coffee</a>
+            </li>
+            <li class="nav-item">
+              <a href="#reveiw" class="nav-link text-white">review</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link text-white">blog</a>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group">
+                <button
+                  class="nav-link text-white dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                >
+                  pages
+                </button>
+                <ul class="dropdown-menu margin-dropdown bg-dark">
+                  <li class="dropdown-item">
+                    <a href="#" class="text-primary text-decoration-none"
+                      >generic</a
+                    >
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="#" class="text-primary text-decoration-none"
+                      >elements</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end navbar -->
+    <!-- home -->
+    <section class="container-fluid bg-img vh-100 mt-5" id="home">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-5 col-md-7 col-sm-9 mt-5">
+            <h6 class="text-white pt-5 text-uppercase">
+              Now you can feel the Energy
+            </h6>
+            <h1 class="text-white pt-4 fs-main text-capitalize fw-bold">
+              Start your day with a black Coffee
+            </h1>
+            <button class="btn btn-outline-light rounded-5 px-5 py-2 mt-4">
+              buy now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end home -->
+    <!-- about -->
+    <section class="container my-5 pt-5" id="about">
+      <div class="row gx-5 justify-content-center mt-5">
+        <div class="col-lg-6 col-md-10 col-sm-12 my-auto">
+          <video controls class="w-100 rounded-4" src="1.mp4"></video>
+        </div>
+        <div class="col-lg-5 col-md-10 col-sm-12 my-auto">
+          <p class="text-warning">Live Coffee making process.</p>
+          <h1>We Telecast our Coffee Making Live</h1>
+          <h6>We are here to listen from you deliver exellence</h6>
+          <p class="text-secondary">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod temp or incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img src="signature.avif" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+    <!-- coffee -->
+    <section class="container-fluid bg-img-1 mt-5 pt-5" id="coffee">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-12 text-center">
+            <h1>What kind of Coffee we serve for you</h1>
+            <p class="text-secondary">
+              Who are in extremely love with eco friendly system.
+            </p>
+            <div>
+              <div class="row my-5 gy-4 justify-content-center">
+                <div class="col-lg-4 col-md-10 col-sm-12">
+                  <div class="card p-3 bg-light">
+                    <div class="card-body">
+                      <div class="card-title d-flex">
+                        <h5 class="">Cappuccino</h5>
+                        <h5 class="ms-auto text-warning">$49</h5>
+                      </div>
+                      <p class="text-secondary text-start">
+                        Usage of the Internet is becoming more common due to
+                        rapid advance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-sm-12">
+                  <div class="card p-3 bg-light">
+                    <div class="card-body">
+                      <div class="card-title d-flex">
+                        <h5 class="">Americano</h5>
+                        <h5 class="ms-auto text-warning">$49</h5>
+                      </div>
+                      <p class="text-secondary text-start">
+                        Usage of the Internet is becoming more common due to
+                        rapid advance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-sm-12">
+                  <div class="card p-3 bg-light">
+                    <div class="card-body">
+                      <div class="card-title d-flex">
+                        <h5 class="">Espresso</h5>
+                        <h5 class="ms-auto text-warning">$49</h5>
+                      </div>
+                      <p class="text-secondary text-start">
+                        Usage of the Internet is becoming more common due to
+                        rapid advance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-sm-12">
+                  <div class="card p-3 bg-light">
+                    <div class="card-body">
+                      <div class="card-title d-flex">
+                        <h5 class="">Macchiato</h5>
+                        <h5 class="ms-auto text-warning">$49</h5>
+                      </div>
+                      <p class="text-secondary text-start">
+                        Usage of the Internet is becoming more common due to
+                        rapid advance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-sm-12">
+                  <div class="card p-3 bg-light">
+                    <div class="card-body">
+                      <div class="card-title d-flex">
+                        <h5 class="">Mocha</h5>
+                        <h5 class="ms-auto text-warning">$49</h5>
+                      </div>
+                      <p class="text-secondary text-start">
+                        Usage of the Internet is becoming more common due to
+                        rapid advance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-sm-12">
+                  <div class="card p-3 bg-light">
+                    <div class="card-body">
+                      <div class="card-title d-flex">
+                        <h5 class="">Coffee Latte</h5>
+                        <h5 class="ms-auto text-warning">$49</h5>
+                      </div>
+                      <p class="text-secondary text-start">
+                        Usage of the Internet is becoming more common due to
+                        rapid advance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-sm-12">
+                  <div class="card p-3 bg-light">
+                    <div class="card-body">
+                      <div class="card-title d-flex">
+                        <h5 class="">Piccolo Latte</h5>
+                        <h5 class="ms-auto text-warning">$49</h5>
+                      </div>
+                      <p class="text-secondary text-start">
+                        Usage of the Internet is becoming more common due to
+                        rapid advance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-sm-12">
+                  <div class="card p-3 bg-light">
+                    <div class="card-body">
+                      <div class="card-title d-flex">
+                        <h5 class="">Ristretto</h5>
+                        <h5 class="ms-auto text-warning">$49</h5>
+                      </div>
+                      <p class="text-secondary text-start">
+                        Usage of the Internet is becoming more common due to
+                        rapid advance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-10 col-sm-12">
+                  <div class="card p-3 bg-light">
+                    <div class="card-body">
+                      <div class="card-title d-flex">
+                        <h5 class="">Affogato</h5>
+                        <h5 class="ms-auto text-warning">$49</h5>
+                      </div>
+                      <p class="text-secondary text-start">
+                        Usage of the Internet is becoming more common due to
+                        rapid advance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5 text-center">
+      <h1>What kind of Coffee we serve for you</h1>
+      <p class="text-secondary">
+        Who are in extremely love with eco friendly system.
+      </p>
+      <div class="row g-2 mt-5">
+        <div class="col-lg-4 col-md-12">
+          <img src="1.jpg" class="img-fluid h-40" alt="" />
+          <img src="2.jpg" class="img-fluid h-60 pt-2" alt="" />
+        </div>
+        <div class="col-lg-8 col-md-12">
+          <img src="1.jpg" class="img-fluid pb-2" alt="" />
+          <div class="row">
+            <div class="d-flex gap-2">
+              <div class="col-lg-4 col-md-12 w-49">
+                <img src="4.webp" class="img-fluid" alt="" />
+              </div>
+              <div class="col-lg-4 col-md-12 w-49">
+                <img src="4.webp" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end coffee -->
+    <!-- review -->
+    <section class="container-fluid bg-warning text-light py-5" id="reveiw">
+      <div class="container my-5">
+        <h1 class="text-center">What kind of Coffee we serve for you</h1>
+        <p class="text-center">
+          Who are in extremely love with eco friendly system.
+        </p>
+        <div class="row my-5 text-start">
+          <div class="coxllg-6 colgmd-12">
+            <h3 class="">Lorem, ipsum.</h3>
+            <p class="mt-4">
+              ccessories Here you can find the best computer accessory for your
+              laptop, monitor, printer, scanner, speaker. Here you can find the
+              best computer accessory for your laptop, monitor, printer,
+              scanner, speaker
+            </p>
+          </div>
+          <div class="col-xl-6 col-lg-12">
+            <h3 class="">Lorem, ipsum.</h3>
+            <p class="mt-4">
+              ccessories Here you can find the best computer accessory for your
+              laptop, monitor, printer, scanner, speaker. Here you can find the
+              best computer accessory for your laptop, monitor, printer,
+              scanner, speaker
+            </p>
+          </div>
+        </div>
+        <div class="row my-5 text-center text-lg-start">
+          <div class="col-xl-3 col-lg-6 col-md-12">
+            <h1>2536</h1>
+            <p class="text-capitalize">happy client</p>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-12">
+            <h1>2536</h1>
+            <p class="text-capitalize">total projects</p>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-12">
+            <h1>2536</h1>
+            <p class="text-capitalize">cups coffee</p>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-12">
+            <h1>2536</h1>
+            <p class="text-capitalize">total submitted</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end review -->
+    <!-- blog -->
+    <section class="container text-center py-5" id="blog">
+      <h1 class="my-5">What kind of Coffee we serve for you</h1>
+      <p class="my-5 text-secondary">
+        Who are in extremely love with eco friendly system.
+      </p>
+      <div class="row text-start">
+        <div class="col-md-6 col-sm-12">
+          <img src="4.webp" class="w-100" alt="" />
+          <button class="btn btn-outline-warning rounded-5 mt-3">travel</button>
+          <button class="btn btn-outline-warning rounded-5 mt-3">
+            life style
+          </button>
+          <a
+            href="#"
+            class="text-decoration-none mt-3 d-block text-black h5 fw-bold"
+            >Portable latest Fashion for young women</a
+          >
+          <p class="text-secondary">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+          <h6>31st January, 2032</h6>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="4.webp" class="w-100" alt="" />
+          <button class="btn btn-outline-warning rounded-5 mt-3">travel</button>
+          <button class="btn btn-outline-warning rounded-5 mt-3">
+            life style
+          </button>
+          <a
+            href="#"
+            class="text-decoration-none mt-3 d-block text-black h5 fw-bold"
+            >Portable latest Fashion for young women</a
+          >
+          <p class="text-secondary">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+          <h6>31st January, 2032</h6>
+        </div>
+      </div>
+    </section>
+    <!-- end blog -->
+    <!-- footer -->
+    <section class="container-fluid bg-img-2 text-white py-5">
+      <div class="container h-100">
+        <div class="row h-100 d-flex align-items-start">
+          <div class="col-md-5 col-sm-6 col-12 h-50 mt-sm-0 mt-5">
+            <h5>About Us</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore dolore magna aliqua.
+            </p>
+            <p class="mt-5">
+              Copyright ©2026 All rights reserved | This template is made with
+              by
+            </p>
+            <a href="#" class="text-warning text-decoration-none"
+              >bg-warninglib</a
+            >
+          </div>
+          <div class="col-md-5 col-sm-6 col-12 h-50 mt-sm-0 mt-5">
+            <h5>Newsletter</h5>
+            <p>Stay update with our latest</p>
+            <div class="input-group">
+              <input
+                type="email"
+                placeholder="enter email"
+                class="form-control"
+              />
+              <button class="btn btn-warning">
+                <i class="bi bi-arrow-right text-light"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-2 h-50 mt-md-0 mt-sm-5 mt-5">
+            <h5>Follow Us</h5>
+            <p>Let us be social</p>
+            <div class="d-flex gap-3 fs-4">
+              <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-light"><i class="bi bi-dribbble"></i></a>
+              <a href="#" class="text-light"><i class="bi bi-behance"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end footer -->
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
